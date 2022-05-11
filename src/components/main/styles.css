@@ -1,0 +1,50 @@
+.sw-logo-container {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+.sw-logo-container>div {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sw-main-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sw-main-btn-container>button {
+    padding: 10px;
+    border: none;
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+.main-comp-img {
+    width: 400px;
+}
+
+.marquee {
+    font-size: 30px;
+    padding: 0;
+    color: yellow;
+    width: 100%;
+}
+
+.option-comp {
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.marquee-txt {
+    padding: 0 20px;
+}

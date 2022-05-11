@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.main-app-table-section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table-display {
+    background-color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.no-table {
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.no-table-txt {
+    text-align: center;
+    color: #111;
 }
 
-.App-link {
-  color: #61dafb;
+.main-app-container {
+    height: 100vh;
+    background-color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+.loader-img {
+    width: 300px;
+}
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-header {
+    margin: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: yellow;
+    color: #fff;
+}
+
+tr {
+    font-size: 16px;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: yellow;
 }
