@@ -54,6 +54,7 @@ export const Character: FC<CharacterProps> = ({ apiArr }) => {
   };
   useEffect(() => {
     getCharInfo();
+    // eslint-disable-next-line
   }, [apiArr]);
 
   const heightSum = () =>
